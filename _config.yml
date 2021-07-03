@@ -1,16 +1,16 @@
 # Site settings
-title: Study area
+title: Study Area
 email: lyb928@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: One sentence introducing yourself or what you do
+description: Poetry and code
 
 # Social icons
 facebook: username
 linkedin: username
-github: username
+github: Hawaiiguitor
 deviantart: username
 codepen: username
 
@@ -18,4 +18,12 @@ footer: © Taken theme
 
 # Build settings
 
-markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:   # Rouge Options › https\://github.com/jneen/rouge#full-options
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
