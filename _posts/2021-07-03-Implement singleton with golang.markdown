@@ -1,4 +1,4 @@
-## Implement singleton with golang
+### Syn for singleton
 
  `syn.once`
 
