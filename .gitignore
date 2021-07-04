@@ -1,0 +1,4 @@
+# Untrack folders
+Gemfile.lock
+_site/*
+.jekyll-cache/*
